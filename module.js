@@ -160,7 +160,7 @@ var define;
        
     var C_RES_MAP = 'res_map';
     var C_VER_DEV = 'dev';
-    var CND_PREFIX = '//j1.58cdn.com.cn/chejinrong_static';
+    var CND_PREFIX = ''; //cdn前缀地址
 
        
     // 获取本地缓存的版本及长度对象，用于校验本地缓存中的数据是否可信
@@ -470,4 +470,4 @@ var define;
 })(this);
 
 
-require.baseUrl = '//10.252.173.111:3000';
+require.baseUrl = ''; //支持跨域的静态资源服务器地址
